@@ -1,10 +1,4 @@
 
-![GitHub package.json version]
-![GitHub license]
-![GitHub last commit]
-![Lines of code]
-![GitHub Repo stars]
-[![Discord badge]][Discord invite]
 
 A self-hosted ShareX upload server written in Node.js. Tycrek initially started this project purely out of spite. This aims to be as **unopinionated** as possible, giving users & hosts alike the ability to modify nearly everything.
 
