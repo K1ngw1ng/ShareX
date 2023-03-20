@@ -6,7 +6,7 @@ By default,it comes with a resource viewing page, which includes metadata about 
 
 #### Developers ❤
 
-ass was designed with developers in mind. If you are a developer & want something changed to better suit you, let me know & we'll see what we can do!
+This was designed with developers in mind. If you are a developer & want something changed to better suit you, let me know & we'll see what we can do!
 ## Code quality
 
 | [CodeQL] | [DeepSource] |
