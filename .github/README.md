@@ -1,6 +1,3 @@
-<div align="center">
-  <h1><a href="https://github.com/tycrek/ass" target="_blank"><img height="180" alt="ass" src="https://imagedelivery.net/cNsTmYlz178gQNL42swQfw/44357fc5-8afd-4a17-76b9-556660b5fc00/public"></a></h1>
-</div>
 
 ![GitHub package.json version]
 ![GitHub license]
@@ -9,23 +6,13 @@
 ![GitHub Repo stars]
 [![Discord badge]][Discord invite]
 
-**ass** is a self-hosted ShareX upload server written in Node.js. I initially started this project purely out of spite. ass aims to be as **unopinionated** as possible, giving users & hosts alike the ability to modify nearly everything.
+A self-hosted ShareX upload server written in Node.js. Tycrek initially started this project purely out of spite. This aims to be as **unopinionated** as possible, giving users & hosts alike the ability to modify nearly everything.
 
-By default, ass comes with a resource viewing page, which includes metadata about the resource as well as a download button & inline viewers for images, videos, & audio. It does **not** have a user dashboard or registration system: **this is intentional!** Developers are free to [create their own frontends] using the languages & tools they are most comfortable with. Writing & using these frontends is fully documented below, in the wiki, & in the source code.
+By default,it comes with a resource viewing page, which includes metadata about the resource as well as a download button & inline viewers for images, videos, & audio. It does **not** have a user dashboard or registration system: **this is intentional!** Developers are free to [create their own frontends] using the languages & tools they are most comfortable with. Writing & using these frontends is fully documented below, in the wiki, & in the source code.
 
 #### Developers ❤
 
 ass was designed with developers in mind. If you are a developer & want something changed to better suit you, let me know & we'll see what we can do!
-
-[GitHub package.json version]: https://img.shields.io/github/package-json/v/tycrek/ass?color=fd842d&style=for-the-badge
-[GitHub license]: https://img.shields.io/github/license/tycrek/ass?color=FD7C21&style=for-the-badge
-[GitHub last commit]: https://img.shields.io/github/last-commit/tycrek/ass?color=FD710D&style=for-the-badge
-[Lines of code]: https://img.shields.io/tokei/lines/github/tycrek/ass?color=F26602&label=LINES&style=for-the-badge
-[GitHub Repo stars]: https://img.shields.io/github/stars/tycrek/ass?color=DE5E02&style=for-the-badge
-[Discord badge]: https://img.shields.io/discord/848274994375294986?label=Support%20server&logo=Discord&logoColor=FFF&style=for-the-badge
-[Discord invite]: https://discord.gg/wGZYt5fasY
-[create their own frontends]: #custom-frontends
-
 ## Code quality
 
 | [CodeQL] | [DeepSource] |
@@ -180,7 +167,7 @@ Deploying ass with Docker exposes **five** volumes. These volumes let you edit t
 <br>
 
 1. You should have **Node.js 16** & **npm 8 or later** installed. 
-2. Clone this repo using `git clone https://github.com/tycrek/ass.git && cd ass/`
+2. Clone this repo using `git clone https://github.com/K1ngw1ng/ShareX.git && cd sharex/`
 3. Run `npm i --save-dev` to install the required dependencies (`--save-dev` is **required** for compilation)
 4. Run `npm run build` to compile the TypeScript files
 5. Run `npm start` to start ass.
